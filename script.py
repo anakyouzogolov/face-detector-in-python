@@ -8,7 +8,7 @@ gray_img = cv2.cvtColor(my_img, cv2.COLOR_BGR2BGRA)
 
 
 # initialize the face recognizer (default face haar cascade)
-face_cascade = cv2.CascadeClassifier("C:\\Users\\zogopy\\AppData\\Local\\Programs\Python\\Python38-32\\Lib\\site-packages\\cv2\\data\\haarcascade_frontalface_default.xml")
+face_cascade = cv2.CascadeClassifier("your_path\\haarcascade_frontalface_default.xml")
 
 
 # detect all the faces in our image
